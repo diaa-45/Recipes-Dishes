@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RecipeWeb</title>
+    <link rel="stylesheet" href="./static/css/reset.css">
+    <link rel="stylesheet" href="./static/css/main.css">
+    <link rel="shortcut icon" href="./static/img/favicon.png" type="image/x-icon">
+</head>
+<body>
+    <article class="body__inner">
+        <header>
+            <article class="header__inner">
+                <div class="main-nav">
+                    <a href="./index.html"><img class="logo" src="./static/img/svg/ReceptWeb_logo.svg" alt="ReceptWeb_logo"></a>
+                    <h2><a class="recipes-link" href="./recipes.html">All recipes</a></h2>
+                    <section>
+                        <h2><a class="categories-link" href="./recipes.html">Categories</a></h2>
+                    </section>
+                </div>
+                
+            </article>
+        </header>
+        <main>
+            <article class="main__inner">
+                <section class="top-nav">
+                    <form class="search" id="filterRecipe" action="./recipes.html">
+                        <input class="search-bar" type="text" id="recipeQuery" name="filter" placeholder="Search">
+                    </form>
+                    
+                    <a class="cta" href="./form.html">Add Recipe</a>
+                    <button id="darkModeButton" class="dark-light"></button>
+                </section>
+                <section class="form__wrapper" id="form">
+                    <div class="recipe-top">
+                        <h1>Add Recipe</h1>
+                        <button onclick="history.back()" class="go-back">Back</button>
+                    </div>
+                    <form class="form" id="addRecipe">
+                        <section class="form__top">
+                            <div>
+                                <label for="recipeTitle"><strong>Recipe Name:</strong></label>
+                                <input type="text" id="recipeTitle" name="title" placeholder="Pasta Carbonara" maxlength="40" required>
+                            </div>
+                            <div>
+                                <label for="recipeCategory"><strong>Category:</strong></label>
+                                <input type="text" id="recipeCategory" name="category" placeholder="Pasta" maxlength="40" required>
+                            </div>
+                        </section>
+                        <section class="form__middle">
+                            <div>
+                                <label for="recipeIngredients"><strong>Ingredients (ingredient: quantity):</strong></label>
+                                <textarea id="recipeIngredients" name="ingredients" placeholder="spaghetti: 200g
+eggs: 2" required></textarea>
+                            </div>
+                            <div>
+                                <label for="recipeInstructions"><strong>Instructions (max 120 characters):</strong></label>
+                                <textarea id="recipeInstructions" name="instructions" placeholder="Cook the spaghetti and fry the bacon. Mix the eggs and cheese. Pour the sauce over the spaghetti and mix with bacon." maxlength="120" required></textarea>
+                            </div>
+                        </section>
+                        <section class="form__bottom">
+                            <div>
+                                <label for="recipeCookingTime"><strong>Cooking Time (in minutes):</strong></label>
+                                <input type="number" id="recipeCookingTime" name="cookingTime" placeholder="20" required>
+                            </div>
+                            <div>
+                                <label for="recipeDifficulty"><strong>Difficulty:</strong></label>
+                                <select id="recipeDifficulty" name="difficulty" required>
+                                    <option value="Easy" selected>Easy</option>
+                                    <option value="Medium">Medium</option>
+                                    <option value="Hard">Hard</option>
+                                </select>
+                            </div>
+                            <div>
+                                <label for="recipeServings"><strong>Servings:</strong></label>
+                                <input type="number" id="recipeServings" name="servings" placeholder="4" required>
+                            </div>
+                            <button class="cta" type="submit">Add</button>
+                        </section>
+                    </form>
+                </section>
+            </article>
+        </main>
+    </article>
+    <script type="module" src="./static/js/form.js"></script>
+</body>
+</html>

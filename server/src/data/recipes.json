@@ -1,0 +1,1668 @@
+[
+    {
+        "id": 1,
+        "title": "Pasta Carbonara",
+        "category": "Pasta",
+        "ingredients": [
+            {
+                "name": "spaghetti",
+                "amount": "200g"
+            },
+            {
+                "name": "eggs",
+                "amount": "2"
+            },
+            {
+                "name": "bacon",
+                "amount": "100g"
+            },
+            {
+                "name": "Parmesan cheese",
+                "amount": "50g"
+            }
+        ],
+        "instructions": "Cook the spaghetti and fry the bacon. Mix the eggs and cheese. Pour the sauce over the spaghetti and mix with the bacon.",
+        "cookingTime": "20",
+        "difficulty": "Easy",
+        "servings": "2"
+    },
+    {
+        "id": 2,
+        "title": "Meatballs",
+        "category": "Meat",
+        "ingredients": [
+            {
+                "name": "minced meat",
+                "amount": "500g"
+            },
+            {
+                "name": "onion",
+                "amount": "1"
+            },
+            {
+                "name": "breadcrumbs",
+                "amount": "50g"
+            },
+            {
+                "name": "egg",
+                "amount": "1"
+            }
+        ],
+        "instructions": "Mix minced meat, onion, breadcrumbs, and egg. Form meatballs and fry them in a pan until done.",
+        "cookingTime": 30,
+        "difficulty": "Medium",
+        "servings": 4
+    },
+    {
+        "id": 3,
+        "title": "Tomato Soup",
+        "category": "Soup",
+        "ingredients": [
+            {
+                "name": "tomatoes",
+                "amount": "1kg"
+            },
+            {
+                "name": "onion",
+                "amount": "1"
+            },
+            {
+                "name": "carrot",
+                "amount": "2"
+            },
+            {
+                "name": "vegetable broth",
+                "amount": "1 liter"
+            }
+        ],
+        "instructions": "Sauté onion and carrot. Add tomatoes and vegetable broth. Cook until everything is soft. Blend into a smooth soup.",
+        "cookingTime": 40,
+        "difficulty": "Easy",
+        "servings": 6
+    },
+    {
+        "id": 4,
+        "title": "Chicken Stew",
+        "category": "Poultry",
+        "ingredients": [
+            {
+                "name": "chicken",
+                "amount": "1kg"
+            },
+            {
+                "name": "potatoes",
+                "amount": "500g"
+            },
+            {
+                "name": "carrot",
+                "amount": "3"
+            },
+            {
+                "name": "onions",
+                "amount": "2"
+            }
+        ],
+        "instructions": "Fry chicken, potatoes, carrot, and onions. Add broth and simmer until everything is cooked.",
+        "cookingTime": 60,
+        "difficulty": "Medium",
+        "servings": 5
+    },
+    {
+        "id": 5,
+        "title": "Quinoa Salad",
+        "category": "Salad",
+        "ingredients": [
+            {
+                "name": "quinoa",
+                "amount": "200g"
+            },
+            {
+                "name": "cucumber",
+                "amount": "1"
+            },
+            {
+                "name": "tomato",
+                "amount": "2"
+            },
+            {
+                "name": "feta cheese",
+                "amount": "100g"
+            }
+        ],
+        "instructions": "Cook quinoa and let it cool. Chop cucumber and tomato. Mix everything with feta cheese and a dressing of your choice.",
+        "cookingTime": 25,
+        "difficulty": "Easy",
+        "servings": 3
+    },
+    {
+        "id": 6,
+        "title": "Salmon Fillet with Lemon",
+        "category": "Fish",
+        "ingredients": [
+            {
+                "name": "salmon fillet",
+                "amount": "2 pieces"
+            },
+            {
+                "name": "lemon",
+                "amount": "1"
+            },
+            {
+                "name": "olive oil",
+                "amount": "2 tablespoons"
+            },
+            {
+                "name": "fresh dill",
+                "amount": "1 tablespoon"
+            }
+        ],
+        "instructions": "Pan fry salmon fillet with lemon juice and olive oil. Garnish with fresh dill before serving.",
+        "cookingTime": 15,
+        "difficulty": "Easy",
+        "servings": 2
+    },
+    {
+        "id": 7,
+        "title": "Mushroom Risotto",
+        "category": "Risotto",
+        "ingredients": [
+            {
+                "name": "risotto rice",
+                "amount": "300g"
+            },
+            {
+                "name": "mushrooms",
+                "amount": "200g"
+            },
+            {
+                "name": "onion",
+                "amount": "1"
+            },
+            {
+                "name": "white wine",
+                "amount": "150ml"
+            }
+        ],
+        "instructions": "Sauté onion and mushrooms. Add risotto rice and deglaze with white wine. Stir until cooked through.",
+        "cookingTime": 35,
+        "difficulty": "Medium",
+        "servings": 4
+    },
+    {
+        "id": 8,
+        "title": "Vegetarian Wraps",
+        "category": "Vegetarian",
+        "ingredients": [
+            {
+                "name": "whole wheat wraps",
+                "amount": "4"
+            },
+            {
+                "name": "black beans",
+                "amount": "1 can"
+            },
+            {
+                "name": "corn",
+                "amount": "150g"
+            },
+            {
+                "name": "avocado",
+                "amount": "2"
+            }
+        ],
+        "instructions": "Fill wraps with black beans, corn, and slices of avocado. Roll up and serve.",
+        "cookingTime": 15,
+        "difficulty": "Easy",
+        "servings": 3
+    },
+    {
+        "id": 9,
+        "title": "Apple Pie",
+        "category": "Dessert",
+        "ingredients": [
+            {
+                "name": "apples",
+                "amount": "4"
+            },
+            {
+                "name": "flour",
+                "amount": "200g"
+            },
+            {
+                "name": "sugar",
+                "amount": "150g"
+            },
+            {
+                "name": "cinnamon",
+                "amount": "1 teaspoon"
+            }
+        ],
+        "instructions": "Peel and slice apples. Mix with flour, sugar, and cinnamon. Bake until the crust is golden brown.",
+        "cookingTime": 50,
+        "difficulty": "Medium",
+        "servings": 8
+    },
+    {
+        "id": 10,
+        "title": "Strawberry Smoothie",
+        "category": "Drink",
+        "ingredients": [
+            {
+                "name": "strawberries",
+                "amount": "250g"
+            },
+            {
+                "name": "yogurt",
+                "amount": "200ml"
+            },
+            {
+                "name": "honey",
+                "amount": "2 tablespoons"
+            },
+            {
+                "name": "ice cubes",
+                "amount": "handful"
+            }
+        ],
+        "instructions": "Blend strawberries, yogurt, honey, and ice cubes into a smoothie.",
+        "cookingTime": 10,
+        "difficulty": "Easy",
+        "servings": 2
+    },
+    {
+        "id": 11,
+        "title": "Greek Salad",
+        "category": "Salad",
+        "ingredients": [
+            {
+                "name": "cucumber",
+                "amount": "1"
+            },
+            {
+                "name": "tomato",
+                "amount": "2"
+            },
+            {
+                "name": "feta cheese",
+                "amount": "100g"
+            },
+            {
+                "name": "black olives",
+                "amount": "50g"
+            }
+        ],
+        "instructions": "Slice cucumber, tomato, and feta cheese. Mix with black olives. Drizzle with olive oil and serve.",
+        "cookingTime": 15,
+        "difficulty": "Easy",
+        "servings": 2
+    },
+    {
+        "id": 12,
+        "title": "Chicken Tandoori",
+        "category": "Poultry",
+        "ingredients": [
+            {
+                "name": "chicken thighs",
+                "amount": "4"
+            },
+            {
+                "name": "yogurt",
+                "amount": "150g"
+            },
+            {
+                "name": "tandoori spices",
+                "amount": "2 tablespoons"
+            },
+            {
+                "name": "lemon juice",
+                "amount": "1 lemon"
+            }
+        ],
+        "instructions": "Marinate chicken thighs in a mixture of yogurt, tandoori spices, and lemon juice. Bake or grill until done.",
+        "cookingTime": 40,
+        "difficulty": "Medium",
+        "servings": 4
+    },
+    {
+        "id": 13,
+        "title": "Broccoli Casserole",
+        "category": "Vegetables",
+        "ingredients": [
+            {
+                "name": "broccoli",
+                "amount": "500g"
+            },
+            {
+                "name": "potatoes",
+                "amount": "4"
+            },
+            {
+                "name": "grated cheese",
+                "amount": "100g"
+            },
+            {
+                "name": "cream",
+                "amount": "200ml"
+            }
+        ],
+        "instructions": "Cook broccoli and potatoes. Arrange in a casserole dish, add cream, and sprinkle with grated cheese. Bake until golden.",
+        "cookingTime": 35,
+        "difficulty": "Medium",
+        "servings": 3
+    },
+    {
+        "id": 14,
+        "title": "Thai Green Curry",
+        "category": "Curry",
+        "ingredients": [
+            {
+                "name": "chicken breast",
+                "amount": "300g"
+            },
+            {
+                "name": "green curry paste",
+                "amount": "2 tablespoons"
+            },
+            {
+                "name": "coconut milk",
+                "amount": "400ml"
+            },
+            {
+                "name": "bamboo shoots",
+                "amount": "150g"
+            }
+        ],
+        "instructions": "Stir fry chicken breast with green curry paste. Add coconut milk and bamboo shoots. Simmer until cooked.",
+        "cookingTime": 30,
+        "difficulty": "Medium",
+        "servings": 2
+    },
+    {
+        "id": 15,
+        "title": "Spinach Feta Quiche",
+        "category": "Quiche",
+        "ingredients": [
+            {
+                "name": "puff pastry",
+                "amount": "1 sheet"
+            },
+            {
+                "name": "spinach",
+                "amount": "200g"
+            },
+            {
+                "name": "feta cheese",
+                "amount": "150g"
+            },
+            {
+                "name": "eggs",
+                "amount": "3"
+            }
+        ],
+        "instructions": "Line a pie dish with puff pastry. Fill with spinach, feta cheese, and beaten eggs. Bake in the oven.",
+        "cookingTime": 45,
+        "difficulty": "Medium",
+        "servings": 4
+    },
+    {
+        "id": 16,
+        "title": "Pumpkin Soup",
+        "category": "Soup",
+        "ingredients": [
+            {
+                "name": "pumpkin",
+                "amount": "1kg"
+            },
+            {
+                "name": "onion",
+                "amount": "1"
+            },
+            {
+                "name": "garlic",
+                "amount": "2 cloves"
+            },
+            {
+                "name": "vegetable broth",
+                "amount": "1 liter"
+            }
+        ],
+        "instructions": "Peel and dice pumpkin, onion, and garlic. Cook with vegetable broth. Blend into a smooth soup.",
+        "cookingTime": 40,
+        "difficulty": "Easy",
+        "servings": 6
+    },
+    {
+            "id": 17,
+            "title": "Mussel Pan with White Wine",
+            "category": "Fish",
+            "ingredients": [
+                {
+                    "name": "mussels",
+                    "amount": "1kg"
+                },
+                {
+                    "name": "white wine",
+                    "amount": "200ml"
+                },
+                {
+                    "name": "onions",
+                    "amount": "2"
+                },
+                {
+                    "name": "garlic",
+                    "amount": "3 cloves"
+                }
+            ],
+            "instructions": "Sauté onions and garlic. Add mussels and white wine. Cook until mussels open. Serve with bread.",
+            "cookingTime": 25,
+            "difficulty": "Medium",
+            "servings": 2
+    },
+    {
+        "id": 18,
+        "title": "Healthy Oat Cookies",
+        "category": "Snack",
+        "ingredients": [
+            {
+                "name": "rolled oats",
+                "amount": "200g"
+            },
+            {
+                "name": "banana",
+                "amount": "2"
+            },
+            {
+                "name": "nuts",
+                "amount": "100g"
+            },
+            {
+                "name": "honey",
+                "amount": "3 tablespoons"
+            }
+        ],
+        "instructions": "Mash bananas and mix with rolled oats, chopped nuts, and honey. Form cookies and bake in the oven.",
+        "cookingTime": 20,
+        "difficulty": "Easy",
+        "servings": 12
+    },
+    {
+        "id": 19,
+        "title": "Asian Noodle Soup",
+        "category": "Soup",
+        "ingredients": [
+            {
+                "name": "egg noodles",
+                "amount": "200g"
+            },
+            {
+                "name": "vegetable broth",
+                "amount": "1 liter"
+            },
+            {
+                "name": "soy sauce",
+                "amount": "3 tablespoons"
+            },
+            {
+                "name": "fresh vegetables",
+                "amount": "200g"
+            }
+        ],
+        "instructions": "Cook egg noodles in vegetable broth. Add soy sauce and fresh vegetables. Serve hot.",
+        "cookingTime": 30,
+        "difficulty": "Easy",
+        "servings": 3
+    },
+    {
+        "id": 20,
+        "title": "Cod with Lemon Butter Sauce",
+        "category": "Fish",
+        "ingredients": [
+            {
+                "name": "cod fillet",
+                "amount": "2 pieces"
+            },
+            {
+                "name": "lemon juice",
+                "amount": "2 tablespoons"
+            },
+            {
+                "name": "butter",
+                "amount": "50g"
+            },
+            {
+                "name": "fresh parsley",
+                "amount": "1 tablespoon"
+            }
+        ],
+        "instructions": "Pan-fry cod fillet and make a sauce with lemon juice, butter, and parsley. Pour over the fish before serving.",
+        "cookingTime": 25,
+        "difficulty": "Easy",
+        "servings": 2
+    },
+    {
+        "id": 21,
+        "title": "Coconut Chia Pudding",
+        "category": "Breakfast",
+        "ingredients": [
+            {
+                "name": "chia seeds",
+                "amount": "4 tablespoons"
+            },
+            {
+                "name": "coconut milk",
+                "amount": "250ml"
+            },
+            {
+                "name": "fresh fruit",
+                "amount": "150g"
+            },
+            {
+                "name": "honey",
+                "amount": "1 tablespoon"
+            }
+        ],
+        "instructions": "Mix chia seeds with coconut milk and let sit in the fridge for a few hours. Top with fresh fruit and honey.",
+        "cookingTime": 240,
+        "difficulty": "Easy",
+        "servings": 2
+    },
+    {
+        "id": 22,
+        "title": "Steak with Mushroom Sauce",
+        "category": "Meat",
+        "ingredients": [
+            {
+                "name": "steak",
+                "amount": "2 pieces"
+            },
+            {
+                "name": "mushrooms",
+                "amount": "200g"
+            },
+            {
+                "name": "onions",
+                "amount": "2"
+            },
+            {
+                "name": "cream",
+                "amount": "150ml"
+            }
+        ],
+        "instructions": "Cook steak to your preference. Make mushroom sauce with sautéed mushrooms, onions, and cream. Serve over the steak.",
+        "cookingTime": 30,
+        "difficulty": "Medium",
+        "servings": 2
+    },
+    {
+        "id": 23,
+        "title": "Grilled Vegetable Skewers",
+        "category": "Vegetarian",
+        "ingredients": [
+            {
+                "name": "bell peppers",
+                "amount": "2"
+            },
+            {
+                "name": "zucchini",
+                "amount": "1"
+            },
+            {
+                "name": "cherry tomatoes",
+                "amount": "250g"
+            },
+            {
+                "name": "olive oil",
+                "amount": "2 tablespoons"
+            }
+        ],
+        "instructions": "Cut vegetables into pieces. Thread onto skewers and drizzle with olive oil. Grill until tender.",
+        "cookingTime": 20,
+        "difficulty": "Easy",
+        "servings": 3
+    },
+    {
+        "id": 24,
+        "title": "Pumpkin Risotto",
+        "category": "Risotto",
+        "ingredients": [
+            {
+                "name": "pumpkin",
+                "amount": "500g"
+            },
+            {
+                "name": "risotto rice",
+                "amount": "300g"
+            },
+            {
+                "name": "onion",
+                "amount": "1"
+            },
+            {
+                "name": "vegetable broth",
+                "amount": "1 liter"
+            }
+        ],
+        "instructions": "Sauté onion and risotto rice. Add diced pumpkin and broth. Stir until creamy and cooked through.",
+        "cookingTime": 35,
+        "difficulty": "Medium",
+        "servings": 4
+    },
+    {
+        "id": 25,
+        "title": "Chicken Cashew Stir-fry",
+        "category": "Poultry",
+        "ingredients": [
+            {
+                "name": "chicken breast",
+                "amount": "400g"
+            },
+            {
+                "name": "cashew nuts",
+                "amount": "100g"
+            },
+            {
+                "name": "green bell pepper",
+                "amount": "1"
+            },
+            {
+                "name": "soy sauce",
+                "amount": "3 tablespoons"
+            }
+        ],
+        "instructions": "Stir-fry chicken breast, green bell pepper, and cashew nuts in soy sauce. Serve with rice.",
+        "cookingTime": 25,
+        "difficulty": "Easy",
+        "servings": 3
+    },
+    {
+        "id": 26,
+        "title": "Spanish Paella",
+        "category": "Rice Dish",
+        "ingredients": [
+            {
+                "name": "paella rice",
+                "amount": "300g"
+            },
+            {
+                "name": "chicken thighs",
+                "amount": "300g"
+            },
+            {
+                "name": "chorizo",
+                "amount": "150g"
+            },
+            {
+                "name": "seafood mix",
+                "amount": "200g"
+            }
+        ],
+        "instructions": "Sauté chicken and chorizo. Add paella rice and seafood mix. Simmer until rice is cooked.",
+        "cookingTime": 40,
+        "difficulty": "Medium",
+        "servings": 4
+    },
+    {
+        "id": 27,
+        "title": "Eggplant Parmigiana",
+        "category": "Vegetarian",
+        "ingredients": [
+            {
+                "name": "eggplant",
+                "amount": "2"
+            },
+            {
+                "name": "tomato sauce",
+                "amount": "500ml"
+            },
+            {
+                "name": "Parmesan cheese",
+                "amount": "100g"
+            },
+            {
+                "name": "mozzarella",
+                "amount": "150g"
+            }
+        ],
+        "instructions": "Slice eggplants and fry. Layer with tomato sauce, Parmesan cheese, and mozzarella. Bake in the oven.",
+        "cookingTime": 45,
+        "difficulty": "Medium",
+        "servings": 3
+    },
+    {
+        "id": 28,
+        "title": "Spring Mash",
+        "category": "Casserole",
+        "ingredients": [
+            {
+                "name": "potatoes",
+                "amount": "500g"
+            },
+            {
+                "name": "spinach",
+                "amount": "300g"
+            },
+            {
+                "name": "onions",
+                "amount": "2"
+            },
+            {
+                "name": "grated cheese",
+                "amount": "100g"
+            }
+        ],
+        "instructions": "Boil potatoes and mash with spinach, onions, and grated cheese. Bake in the oven.",
+        "cookingTime": 35,
+        "difficulty": "Easy",
+        "servings": 4
+    },
+    {
+        "id": 29,
+        "title": "Chocolate Raspberry Muffins",
+        "category": "Dessert",
+        "ingredients": [
+            {
+                "name": "flour",
+                "amount": "200g"
+            },
+            {
+                "name": "cocoa powder",
+                "amount": "50g"
+            },
+            {
+                "name": "sugar",
+                "amount": "150g"
+            },
+            {
+                "name": "raspberries",
+                "amount": "150g"
+            }
+        ],
+        "instructions": "Mix flour, cocoa powder, and sugar. Add raspberries and bake in muffin molds.",
+        "cookingTime": 25,
+        "difficulty": "Easy",
+        "servings": 8
+    },
+    {
+        "id": 30,
+        "title": "Coconut Pineapple Smoothie Bowl",
+        "category": "Breakfast",
+        "ingredients": [
+            {
+                "name": "coconut milk",
+                "amount": "200ml"
+            },
+            {
+                "name": "pineapple slices",
+                "amount": "1 can"
+            },
+            {
+                "name": "banana",
+                "amount": "1"
+            },
+            {
+                "name": "granola",
+                "amount": "50g"
+            }
+        ],
+        "instructions": "Blend coconut milk, pineapple, and banana into a smoothie. Pour into a bowl and top with granola.",
+        "cookingTime": 10,
+        "difficulty": "Easy",
+        "servings": 2
+    },
+    {
+        "id": 31,
+        "title": "Caprese Salad",
+        "category": "Salad",
+        "ingredients": [
+            {
+                "name": "tomato",
+                "amount": "2"
+            },
+            {
+                "name": "mozzarella",
+                "amount": "150g"
+            },
+            {
+                "name": "fresh basil",
+                "amount": "1 bunch"
+            },
+            {
+                "name": "balsamic vinegar",
+                "amount": "2 tablespoons"
+            }
+        ],
+        "instructions": "Slice tomatoes and mozzarella. Arrange on a plate with fresh basil. Drizzle with balsamic vinegar.",
+        "cookingTime": 15,
+        "difficulty": "Easy",
+        "servings": 2
+    },
+    {
+        "id": 32,
+        "title": "Chicken Wraps with Avocado",
+        "category": "Poultry",
+        "ingredients": [
+            {
+                "name": "chicken breast",
+                "amount": "300g"
+            },
+            {
+                "name": "whole wheat wraps",
+                "amount": "4"
+            },
+            {
+                "name": "avocado",
+                "amount": "2"
+            },
+            {
+                "name": "tomato",
+                "amount": "1"
+            }
+        ],
+        "instructions": "Bake chicken breast and cut into strips. Fill wraps with chicken, slices of avocado, and tomato.",
+        "cookingTime": 20,
+        "difficulty": "Easy",
+        "servings": 3
+    },
+    {
+            "id": 33,
+            "title": "Potato Leek Casserole",
+            "category": "Casserole",
+            "ingredients": [
+                {
+                    "name": "potatoes",
+                    "amount": "500g"
+                },
+                {
+                    "name": "leeks",
+                    "amount": "2 stalks"
+                },
+                {
+                    "name": "grated cheese",
+                    "amount": "100g"
+                },
+                {
+                    "name": "milk",
+                    "amount": "200ml"
+                }
+            ],
+            "instructions": "Boil potatoes and leeks. Mash with milk. Layer in a casserole dish, sprinkle with cheese, and gratinate in the oven.",
+            "cookingTime": 40,
+            "difficulty": "Easy",
+            "servings": 4
+    },
+    {
+            "id": 34,
+            "title": "Shrimp Pad Thai",
+            "category": "Noodles",
+            "ingredients": [
+                {
+                    "name": "rice noodles",
+                    "amount": "200g"
+                },
+                {
+                    "name": "shrimp",
+                    "amount": "250g"
+                },
+                {
+                    "name": "bean sprouts",
+                    "amount": "150g"
+                },
+                {
+                    "name": "peanuts",
+                    "amount": "50g"
+                }
+            ],
+            "instructions": "Cook rice noodles and stir-fry shrimp with bean sprouts. Add sauce and garnish with peanuts.",
+            "cookingTime": 30,
+            "difficulty": "Medium",
+            "servings": 2
+    },
+    {
+        "id": 35,
+        "title": "Turkey Breast with Cranberry Sauce",
+        "category": "Poultry",
+        "ingredients": [
+            {
+                "name": "turkey breast",
+                "amount": "2 pieces"
+            },
+            {
+                "name": "cranberry sauce",
+                "amount": "150g"
+            },
+            {
+                "name": "honey",
+                "amount": "2 tablespoons"
+            },
+            {
+                "name": "rosemary",
+                "amount": "1 teaspoon"
+            }
+        ],
+        "instructions": "Roast turkey breast and make sauce with cranberry sauce, honey, and rosemary. Serve over the turkey.",
+        "cookingTime": 35,
+        "difficulty": "Easy",
+        "servings": 2
+    },
+    {
+        "id": 36,
+        "title": "Pasta Pesto with Cherry Tomatoes",
+        "category": "Pasta",
+        "ingredients": [
+            {
+                "name": "pasta",
+                "amount": "300g"
+            },
+            {
+                "name": "pesto",
+                "amount": "200g"
+            },
+            {
+                "name": "cherry tomatoes",
+                "amount": "250g"
+            },
+            {
+                "name": "Parmesan cheese",
+                "amount": "50g"
+            }
+        ],
+        "instructions": "Cook pasta and mix with pesto. Add halved cherry tomatoes and sprinkle with Parmesan cheese.",
+        "cookingTime": 20,
+        "difficulty": "Easy",
+        "servings": 3
+    },
+    {
+        "id": 37,
+        "title": "Sweet Potato Soup",
+        "category": "Soup",
+        "ingredients": [
+            {
+                "name": "sweet potatoes",
+                "amount": "500g"
+            },
+            {
+                "name": "onion",
+                "amount": "1"
+            },
+            {
+                "name": "garlic",
+                "amount": "2 cloves"
+            },
+            {
+                "name": "coconut milk",
+                "amount": "400ml"
+            }
+        ],
+        "instructions": "Peel and chop sweet potatoes, onion, and garlic. Cook with coconut milk. Puree until creamy.",
+        "cookingTime": 40,
+        "difficulty": "Easy",
+        "servings": 4
+    },
+    {
+        "id": 38,
+        "title": "Greek Gyros Wrap",
+        "category": "Poultry",
+        "ingredients": [
+            {
+                "name": "chicken gyros",
+                "amount": "300g"
+            },
+            {
+                "name": "whole wheat wraps",
+                "amount": "4"
+            },
+            {
+                "name": "tzatziki",
+                "amount": "150g"
+            },
+            {
+                "name": "tomato",
+                "amount": "1"
+            }
+        ],
+        "instructions": "Cook chicken gyros and fill wraps with gyros, tzatziki, and slices of tomato.",
+        "cookingTime": 25,
+        "difficulty": "Easy",
+        "servings": 3
+    },
+    {
+        "id": 39,
+        "title": "Ratatouille",
+        "category": "Vegetables",
+        "ingredients": [
+            {
+                "name": "eggplant",
+                "amount": "1"
+            },
+            {
+                "name": "zucchini",
+                "amount": "1"
+            },
+            {
+                "name": "bell pepper",
+                "amount": "1"
+            },
+            {
+                "name": "tomato sauce",
+                "amount": "300ml"
+            }
+        ],
+        "instructions": "Slice vegetables and arrange in a baking dish. Add tomato sauce and bake in the oven.",
+        "cookingTime": 30,
+        "difficulty": "Easy",
+        "servings": 2
+    },
+    {
+        "id": 40,
+        "title": "Chocolate Mousse",
+        "category": "Dessert",
+        "ingredients": [
+            {
+                "name": "dark chocolate",
+                "amount": "200g"
+            },
+            {
+                "name": "whipping cream",
+                "amount": "300ml"
+            },
+            {
+                "name": "sugar",
+                "amount": "50g"
+            },
+            {
+                "name": "vanilla extract",
+                "amount": "1 teaspoon"
+            }
+        ],
+        "instructions": "Melt chocolate and let cool. Whip cream with sugar and vanilla extract. Mix with melted chocolate. Chill in the refrigerator.",
+        "cookingTime": 120,
+        "difficulty": "Easy",
+        "servings": 4
+    },
+    {
+        "id": 41,
+        "title": "Quinoa Salad with Vegetables",
+        "category": "Salad",
+        "ingredients": [
+            {
+                "name": "quinoa",
+                "amount": "1 cup"
+            },
+            {
+                "name": "bell pepper",
+                "amount": "2"
+            },
+            {
+                "name": "zucchini",
+                "amount": "1"
+            },
+            {
+                "name": "cherry tomatoes",
+                "amount": "250g"
+            }
+        ],
+        "instructions": "Cook quinoa according to package instructions and roast vegetables in the oven. Mix together for a tasty salad.",
+        "cookingTime": 30,
+        "difficulty": "Easy",
+        "servings": 3
+    },
+    {
+        "id": 42,
+        "title": "Mango Chicken Curry",
+        "category": "Curry",
+        "ingredients": [
+            {
+                "name": "chicken breast",
+                "amount": "400g"
+            },
+            {
+                "name": "mango",
+                "amount": "1"
+            },
+            {
+                "name": "curry paste",
+                "amount": "2 tablespoons"
+            },
+            {
+                "name": "coconut milk",
+                "amount": "400ml"
+            }
+        ],
+        "instructions": "Cook chicken breast with curry paste. Add diced mango and coconut milk. Simmer until chicken is cooked through.",
+        "cookingTime": 35,
+        "difficulty": "Medium",
+        "servings": 4
+    },
+    {
+        "id": 43,
+        "title": "Strawberry Cheesecake",
+        "category": "Dessert",
+        "ingredients": [
+            {
+                "name": "cream cheese",
+                "amount": "200g"
+            },
+            {
+                "name": "strawberries",
+                "amount": "250g"
+            },
+            {
+                "name": "sugar",
+                "amount": "100g"
+            },
+            {
+                "name": "cookie crumbs",
+                "amount": "150g"
+            }
+        ],
+        "instructions": "Mix cream cheese with sugar. Add strawberries. Make a crust with cookie crumbs and pour the mixture over it. Chill in the refrigerator.",
+        "cookingTime": 180,
+        "difficulty": "Easy",
+        "servings": 6
+    },
+    {
+        "id": 44,
+        "title": "Grilled Salmon Fillet",
+        "category": "Fish",
+        "ingredients": [
+            {
+                "name": "salmon fillet",
+                "amount": "2 pieces"
+            },
+            {
+                "name": "lemon",
+                "amount": "1"
+            },
+            {
+                "name": "fresh dill",
+                "amount": "1 tablespoon"
+            },
+            {
+                "name": "olive oil",
+                "amount": "2 tablespoons"
+            }
+        ],
+        "instructions": "Marinate salmon fillets in olive oil, lemon juice, and fresh dill. Grill until salmon is cooked.",
+        "cookingTime": 20,
+        "difficulty": "Easy",
+        "servings": 2
+    },
+    {
+        "id": 45,
+        "title": "Vegetarian Couscous Salad",
+        "category": "Salad",
+        "ingredients": [
+            {
+                "name": "couscous",
+                "amount": "1 cup"
+            },
+            {
+                "name": "chickpeas",
+                "amount": "200g"
+            },
+            {
+                "name": "bell pepper",
+                "amount": "1"
+            },
+            {
+                "name": "fresh mint",
+                "amount": "1 bunch"
+            }
+        ],
+        "instructions": "Prepare couscous according to package instructions and mix with chickpeas, chopped bell pepper, and fresh mint.",
+        "cookingTime": 15,
+        "difficulty": "Easy",
+        "servings": 3
+    },
+       {
+        "id": 35,
+        "title": "Kalkoenfilet met Cranberrysaus",
+        "category": "Gevogelte",
+        "ingredients": [
+            {
+                "name": "kalkoenfilet",
+                "amount": "2 stuks"
+            },
+            {
+                "name": "cranberrysaus",
+                "amount": "150g"
+            },
+            {
+                "name": "honing",
+                "amount": "2 eetlepels"
+            },
+            {
+                "name": "rozemarijn",
+                "amount": "1 theelepel"
+            }
+        ],
+        "instructions": "Bak kalkoenfilet en maak saus van cranberrysaus, honing en rozemarijn. Serveer over de kalkoen.",
+        "cookingTime": 35,
+        "difficulty": "Gemakkelijk",
+        "servings": 2
+    },
+    {
+        "id": 36,
+        "title": "Pasta Pesto met Cherrytomaatjes",
+        "category": "Pasta",
+        "ingredients": [
+            {
+                "name": "pasta",
+                "amount": "300g"
+            },
+            {
+                "name": "pesto",
+                "amount": "200g"
+            },
+            {
+                "name": "cherrytomaatjes",
+                "amount": "250g"
+            },
+            {
+                "name": "Parmezaanse kaas",
+                "amount": "50g"
+            }
+        ],
+        "instructions": "Kook pasta en meng met pesto. Voeg gehalveerde cherrytomaatjes toe en bestrooi met Parmezaanse kaas.",
+        "cookingTime": 20,
+        "difficulty": "Gemakkelijk",
+        "servings": 3
+    },
+    {
+        "id": 37,
+        "title": "Zoete Aardappelsoep",
+        "category": "Soep",
+        "ingredients": [
+            {
+                "name": "zoete aardappelen",
+                "amount": "500g"
+            },
+            {
+                "name": "ui",
+                "amount": "1"
+            },
+            {
+                "name": "knoflook",
+                "amount": "2 teentjes"
+            },
+            {
+                "name": "kokosmelk",
+                "amount": "400ml"
+            }
+        ],
+        "instructions": "Schil en snijd zoete aardappelen, ui en knoflook. Kook met kokosmelk. Pureer tot een romige soep.",
+        "cookingTime": 40,
+        "difficulty": "Gemakkelijk",
+        "servings": 4
+    },
+    {
+        "id": 38,
+        "title": "Griekse Gyros Wrap",
+        "category": "Gevogelte",
+        "ingredients": [
+            {
+                "name": "kipgyros",
+                "amount": "300g"
+            },
+            {
+                "name": "volkoren wraps",
+                "amount": "4"
+            },
+            {
+                "name": "tzatziki",
+                "amount": "150g"
+            },
+            {
+                "name": "tomaat",
+                "amount": "1"
+            }
+        ],
+        "instructions": "Bak kipgyros en vul wraps met gyros, tzatziki en plakjes tomaat.",
+        "cookingTime": 25,
+        "difficulty": "Gemakkelijk",
+        "servings": 3
+    },
+    {
+        "id": 39,
+        "title": "Ratatouille",
+        "category": "Groenten",
+        "ingredients": [
+            {
+                "name": "aubergine",
+                "amount": "1"
+            },
+            {
+                "name": "courgette",
+                "amount": "1"
+            },
+            {
+                "name": "paprika",
+                "amount": "1"
+            },
+            {
+                "name": "tomatensaus",
+                "amount": "300ml"
+            }
+        ],
+        "instructions": "Snijd groenten in plakjes en schik in een ovenschaal. Voeg tomatensaus toe en bak in de oven.",
+        "cookingTime": 30,
+        "difficulty": "Gemakkelijk",
+        "servings": 2
+    },
+    {
+        "id": 40,
+        "title": "Chocolade Mousse",
+        "category": "Dessert",
+        "ingredients": [
+            {
+                "name": "pure chocolade",
+                "amount": "200g"
+            },
+            {
+                "name": "slagroom",
+                "amount": "300ml"
+            },
+            {
+                "name": "suiker",
+                "amount": "50g"
+            },
+            {
+                "name": "vanille-extract",
+                "amount": "1 theelepel"
+            }
+        ],
+        "instructions": "Smelt chocolade en laat afkoelen. Klop slagroom met suiker en vanille-extract. Meng met gesmolten chocolade. Laat opstijven in de koelkast.",
+        "cookingTime": 120,
+        "difficulty": "Gemakkelijk",
+        "servings": 4
+    },
+    {
+        "id": 41,
+        "title": "Quinoa Salade met Groenten",
+        "category": "Salade",
+        "ingredients": [
+            {
+                "name": "quinoa",
+                "amount": "1 kopje"
+            },
+            {
+                "name": "paprika",
+                "amount": "2"
+            },
+            {
+                "name": "courgette",
+                "amount": "1"
+            },
+            {
+                "name": "cherrytomaatjes",
+                "amount": "250g"
+            }
+        ],
+        "instructions": "Kook quinoa en rooster groenten in de oven. Meng samen tot een smakelijke salade.",
+        "cookingTime": 30,
+        "difficulty": "Gemakkelijk",
+        "servings": 3
+    },
+    {
+        "id": 42,
+        "title": "Mango Kip Curry",
+        "category": "Curry",
+        "ingredients": [
+            {
+                "name": "kipfilet",
+                "amount": "400g"
+            },
+            {
+                "name": "mango",
+                "amount": "1"
+            },
+            {
+                "name": "currypasta",
+                "amount": "2 eetlepels"
+            },
+            {
+                "name": "kokosmelk",
+                "amount": "400ml"
+            }
+        ],
+        "instructions": "Bak kipfilet met currypasta. Voeg gesneden mango en kokosmelk toe. Laat sudderen tot de kip gaar is.",
+        "cookingTime": 35,
+        "difficulty": "Gemiddeld",
+        "servings": 4
+    },
+    {
+        "id": 43,
+        "title": "Aardbeien Cheesecake",
+        "category": "Dessert",
+        "ingredients": [
+            {
+                "name": "roomkaas",
+                "amount": "200g"
+            },
+            {
+                "name": "aardbeien",
+                "amount": "250g"
+            },
+            {
+                "name": "suiker",
+                "amount": "100g"
+            },
+            {
+                "name": "koekkruimels",
+                "amount": "150g"
+            }
+        ],
+        "instructions": "Mix roomkaas met suiker. Voeg aardbeien toe. Maak een bodem van koekkruimels en giet het mengsel erover. Laat opstijven in de koelkast.",
+        "cookingTime": 180,
+        "difficulty": "Gemakkelijk",
+        "servings": 6
+    },
+    {
+        "id": 44,
+        "title": "Gegrilde Zalmfilet",
+        "category": "Vis",
+        "ingredients": [
+            {
+                "name": "zalmfilet",
+                "amount": "2 stuks"
+            },
+            {
+                "name": "citroen",
+                "amount": "1"
+            },
+            {
+                "name": "verse dille",
+                "amount": "1 eetlepel"
+            },
+            {
+                "name": "olijfolie",
+                "amount": "2 eetlepels"
+            }
+        ],
+        "instructions": "Marineer zalmfilets in olijfolie, citroensap en verse dille. Grill tot de zalm gaar is.",
+        "cookingTime": 20,
+        "difficulty": "Gemakkelijk",
+        "servings": 2
+    },
+    {
+        "id": 45,
+        "title": "Vegetarische Couscoussalade",
+        "category": "Salade",
+        "ingredients": [
+            {
+                "name": "couscous",
+                "amount": "1 kopje"
+            },
+            {
+                "name": "kikkererwten",
+                "amount": "200g"
+            },
+            {
+                "name": "paprika",
+                "amount": "1"
+            },
+            {
+                "name": "verse munt",
+                "amount": "1 bosje"
+            }
+        ],
+        "instructions": "Bereid couscous volgens de verpakking en meng met kikkererwten, gesneden paprika en verse munt.",
+        "cookingTime": 15,
+        "difficulty": "Gemakkelijk",
+        "servings": 3
+    },
+    {
+        "id": 46,
+        "title": "Citroen Risotto",
+        "category": "Risotto",
+        "ingredients": [
+            {
+                "name": "risottorijst",
+                "amount": "300g"
+            },
+            {
+                "name": "citroen",
+                "amount": "2"
+            },
+            {
+                "name": "verse tijm",
+                "amount": "1 eetlepel"
+            },
+            {
+                "name": "groentebouillon",
+                "amount": "1 liter"
+            }
+        ],
+        "instructions": "Bak risottorijst met citroenrasp en tijm. Voeg geleidelijk bouillon toe en roer tot de rijst gaar is.",
+        "cookingTime": 30,
+        "difficulty": "Gemiddeld",
+        "servings": 4
+    },
+    {
+        "id": 47,
+        "title": "Kokos Mango Smoothie",
+        "category": "Drank",
+        "ingredients": [
+            {
+                "name": "mango",
+                "amount": "1"
+            },
+            {
+                "name": "kokosmelk",
+                "amount": "200ml"
+            },
+            {
+                "name": "yoghurt",
+                "amount": "150ml"
+            },
+            {
+                "name": "honing",
+                "amount": "2 eetlepels"
+            }
+        ],
+        "instructions": "Mix mango, kokosmelk, yoghurt en honing tot een verfrissende smoothie.",
+        "cookingTime": 10,
+        "difficulty": "Gemakkelijk",
+        "servings": 2
+    },
+    {
+        "id": 48,
+        "title": "Gevulde Paprika's met Quinoa",
+        "category": "Vegetarisch",
+        "ingredients": [
+            {
+                "name": "paprika's",
+                "amount": "4"
+            },
+            {
+                "name": "quinoa",
+                "amount": "1 kopje"
+            },
+            {
+                "name": "zwarte bonen",
+                "amount": "200g"
+            },
+            {
+                "name": "tomatensaus",
+                "amount": "300ml"
+            }
+        ],
+        "instructions": "Kook quinoa en meng met zwarte bonen en tomatensaus. Vul paprika's en bak in de oven.",
+        "cookingTime": 40,
+        "difficulty": "Gemakkelijk",
+        "servings": 4
+    },
+    {
+        "id": 49,
+        "title": "Kip Caesar Salade",
+        "category": "Salade",
+        "ingredients": [
+            {
+                "name": "kippendijen",
+                "amount": "300g"
+            },
+            {
+                "name": "romeinse sla",
+                "amount": "1 krop"
+            },
+            {
+                "name": "croutons",
+                "amount": "100g"
+            },
+            {
+                "name": "Caesardressing",
+                "amount": "150ml"
+            }
+        ],
+        "instructions": "Bak kippendijen en snijd in reepjes. Meng met gescheurde sla, croutons en Caesardressing.",
+        "cookingTime": 25,
+        "difficulty": "Gemakkelijk",
+        "servings": 2
+    },
+    {
+        "id": 50,
+        "title": "Pompoen Notencake",
+        "category": "Dessert",
+        "ingredients": [
+            {
+                "name": "pompoenpuree",
+                "amount": "1 kopje"
+            },
+            {
+                "name": "bloem",
+                "amount": "200g"
+            },
+            {
+                "name": "notenmix",
+                "amount": "100g"
+            },
+            {
+                "name": "kaneel",
+                "amount": "1 theelepel"
+            }
+        ],
+        "instructions": "Mix pompoenpuree met bloem, notenmix en kaneel. Bak tot een smeuïge cake.",
+        "cookingTime": 50,
+        "difficulty": "Gemakkelijk",
+        "servings": 8
+    },
+    {
+        "title": "meat",
+        "category": "meat",
+        "ingredients": [
+            {
+                "name": "meat",
+                "amount": "2"
+            },
+            {
+                "name": "vegit",
+                "amount": "2"
+            }
+        ],
+        "instructions": "cooking together ",
+        "cookingTime": "57",
+        "difficulty": "Easy",
+        "servings": "3",
+        "id": "7b095300-8fde-4508-bb73-1fd6ed3b9dd1"
+    }
+]

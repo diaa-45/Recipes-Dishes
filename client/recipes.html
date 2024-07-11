@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RecipeWeb</title>
+    <link rel="stylesheet" href="./static/css/reset.css">
+    <link rel="stylesheet" href="./static/css/main.css">
+    <link rel="shortcut icon" href="./static/img/favicon.png" type="image/x-icon">
+</head>
+<body>
+    <article class="body__inner">
+        <header>
+            <article class="header__inner header__inner--recipes">
+                <div class="main-nav">
+                    <a href="./index.html"><img class="logo" src="./static/img/svg/Logo_big.svg" alt="ReceptWeb_logo"></a>
+                    <h2><a class="recipes-link recipes-link--active" href="./recipes.html">All recipes</a></h2>
+                    <section>
+                        <h2><a class="categories-link categories-link--active" href="./recipes.html">Categories</a></h2>
+                        <!-- Only recipes.html -->
+                        <div class="categories__wrapper">
+                            <button class="reset-filters" id="resetFilters">Reset</button>
+                            <div class="categories" id="categories">
+                                <!-- Loaded from API -->
+                            </div>
+                            <button id="scrollDown" class="scroll-down"><img src="./static/img/svg/double-arrow-right-svgrepo-com.svg" alt=""></button>
+                        </div>
+                    </section>
+                </div>
+                
+            </article>
+        </header>
+        <main>
+            <article class="main__inner">
+                <section class="top-nav">
+                    <form class="search" id="filterRecipe">
+                        <input class="search-bar" type="text" id="recipeQuery" name="filter" placeholder="Search">
+                    </form>
+                    
+                    <a class="cta" href="./form.html">Add Recipe</a>
+                    <button id="darkModeButton" class="dark-light"></button>
+                </section>
+                <h1>All recipes</h1>
+                <div class="recipes" id="recipes">
+                    <!-- Loaded from API -->
+                    <div>Loading</div>
+                </div>
+            </article>
+        </main>
+    </article>
+    <script type="module" src="./static/js/recipes.js"></script>
+</body>
+</html>
