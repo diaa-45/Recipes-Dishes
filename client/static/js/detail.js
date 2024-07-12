@@ -95,7 +95,7 @@ async function deleteRecipe() {
             // Delete the recipe
             await deleteData(`${API_URL}/${getSelectedRecipeId()}`);
             // Go back to home
-            window.location.href = '/';
+            window.location.href = './';
         }
     });
 };

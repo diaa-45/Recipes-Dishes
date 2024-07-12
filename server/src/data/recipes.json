@@ -432,31 +432,31 @@
         "servings": 6
     },
     {
-            "id": 17,
-            "title": "Mussel Pan with White Wine",
-            "category": "Fish",
-            "ingredients": [
-                {
-                    "name": "mussels",
-                    "amount": "1kg"
-                },
-                {
-                    "name": "white wine",
-                    "amount": "200ml"
-                },
-                {
-                    "name": "onions",
-                    "amount": "2"
-                },
-                {
-                    "name": "garlic",
-                    "amount": "3 cloves"
-                }
-            ],
-            "instructions": "Sauté onions and garlic. Add mussels and white wine. Cook until mussels open. Serve with bread.",
-            "cookingTime": 25,
-            "difficulty": "Medium",
-            "servings": 2
+        "id": 17,
+        "title": "Mussel Pan with White Wine",
+        "category": "Fish",
+        "ingredients": [
+            {
+                "name": "mussels",
+                "amount": "1kg"
+            },
+            {
+                "name": "white wine",
+                "amount": "200ml"
+            },
+            {
+                "name": "onions",
+                "amount": "2"
+            },
+            {
+                "name": "garlic",
+                "amount": "3 cloves"
+            }
+        ],
+        "instructions": "Sauté onions and garlic. Add mussels and white wine. Cook until mussels open. Serve with bread.",
+        "cookingTime": 25,
+        "difficulty": "Medium",
+        "servings": 2
     },
     {
         "id": 18,
@@ -864,58 +864,58 @@
         "servings": 3
     },
     {
-            "id": 33,
-            "title": "Potato Leek Casserole",
-            "category": "Casserole",
-            "ingredients": [
-                {
-                    "name": "potatoes",
-                    "amount": "500g"
-                },
-                {
-                    "name": "leeks",
-                    "amount": "2 stalks"
-                },
-                {
-                    "name": "grated cheese",
-                    "amount": "100g"
-                },
-                {
-                    "name": "milk",
-                    "amount": "200ml"
-                }
-            ],
-            "instructions": "Boil potatoes and leeks. Mash with milk. Layer in a casserole dish, sprinkle with cheese, and gratinate in the oven.",
-            "cookingTime": 40,
-            "difficulty": "Easy",
-            "servings": 4
+        "id": 33,
+        "title": "Potato Leek Casserole",
+        "category": "Casserole",
+        "ingredients": [
+            {
+                "name": "potatoes",
+                "amount": "500g"
+            },
+            {
+                "name": "leeks",
+                "amount": "2 stalks"
+            },
+            {
+                "name": "grated cheese",
+                "amount": "100g"
+            },
+            {
+                "name": "milk",
+                "amount": "200ml"
+            }
+        ],
+        "instructions": "Boil potatoes and leeks. Mash with milk. Layer in a casserole dish, sprinkle with cheese, and gratinate in the oven.",
+        "cookingTime": 40,
+        "difficulty": "Easy",
+        "servings": 4
     },
     {
-            "id": 34,
-            "title": "Shrimp Pad Thai",
-            "category": "Noodles",
-            "ingredients": [
-                {
-                    "name": "rice noodles",
-                    "amount": "200g"
-                },
-                {
-                    "name": "shrimp",
-                    "amount": "250g"
-                },
-                {
-                    "name": "bean sprouts",
-                    "amount": "150g"
-                },
-                {
-                    "name": "peanuts",
-                    "amount": "50g"
-                }
-            ],
-            "instructions": "Cook rice noodles and stir-fry shrimp with bean sprouts. Add sauce and garnish with peanuts.",
-            "cookingTime": 30,
-            "difficulty": "Medium",
-            "servings": 2
+        "id": 34,
+        "title": "Shrimp Pad Thai",
+        "category": "Noodles",
+        "ingredients": [
+            {
+                "name": "rice noodles",
+                "amount": "200g"
+            },
+            {
+                "name": "shrimp",
+                "amount": "250g"
+            },
+            {
+                "name": "bean sprouts",
+                "amount": "150g"
+            },
+            {
+                "name": "peanuts",
+                "amount": "50g"
+            }
+        ],
+        "instructions": "Cook rice noodles and stir-fry shrimp with bean sprouts. Add sauce and garnish with peanuts.",
+        "cookingTime": 30,
+        "difficulty": "Medium",
+        "servings": 2
     },
     {
         "id": 35,
@@ -1214,36 +1214,36 @@
         "difficulty": "Easy",
         "servings": 3
     },
-       {
+    {
         "id": 35,
-        "title": "Kalkoenfilet met Cranberrysaus",
-        "category": "Gevogelte",
+        "title": "Turkey Fillet with Cranberry Sauce",
+        "category": "Poultry",
         "ingredients": [
             {
-                "name": "kalkoenfilet",
-                "amount": "2 stuks"
+                "name": "turkey fillet",
+                "amount": "2 pieces"
             },
             {
-                "name": "cranberrysaus",
+                "name": "cranberry sauce",
                 "amount": "150g"
             },
             {
-                "name": "honing",
-                "amount": "2 eetlepels"
+                "name": "honey",
+                "amount": "2 tablespoons"
             },
             {
-                "name": "rozemarijn",
-                "amount": "1 theelepel"
+                "name": "rosemary",
+                "amount": "1 teaspoon"
             }
         ],
-        "instructions": "Bak kalkoenfilet en maak saus van cranberrysaus, honing en rozemarijn. Serveer over de kalkoen.",
+        "instructions": "Pan-fry turkey fillet and prepare sauce with cranberry sauce, honey, and rosemary. Serve over the turkey.",
         "cookingTime": 35,
-        "difficulty": "Gemakkelijk",
+        "difficulty": "Easy",
         "servings": 2
     },
     {
         "id": 36,
-        "title": "Pasta Pesto met Cherrytomaatjes",
+        "title": "Pasta Pesto with Cherry Tomatoes",
         "category": "Pasta",
         "ingredients": [
             {
@@ -1255,57 +1255,57 @@
                 "amount": "200g"
             },
             {
-                "name": "cherrytomaatjes",
+                "name": "cherry tomatoes",
                 "amount": "250g"
             },
             {
-                "name": "Parmezaanse kaas",
+                "name": "Parmesan cheese",
                 "amount": "50g"
             }
         ],
-        "instructions": "Kook pasta en meng met pesto. Voeg gehalveerde cherrytomaatjes toe en bestrooi met Parmezaanse kaas.",
+        "instructions": "Cook pasta and mix with pesto. Add halved cherry tomatoes and sprinkle with Parmesan cheese.",
         "cookingTime": 20,
-        "difficulty": "Gemakkelijk",
+        "difficulty": "Easy",
         "servings": 3
     },
     {
         "id": 37,
-        "title": "Zoete Aardappelsoep",
-        "category": "Soep",
+        "title": "Sweet Potato Soup",
+        "category": "Soup",
         "ingredients": [
             {
-                "name": "zoete aardappelen",
+                "name": "sweet potatoes",
                 "amount": "500g"
             },
             {
-                "name": "ui",
+                "name": "onion",
                 "amount": "1"
             },
             {
-                "name": "knoflook",
-                "amount": "2 teentjes"
+                "name": "garlic",
+                "amount": "2 cloves"
             },
             {
-                "name": "kokosmelk",
+                "name": "coconut milk",
                 "amount": "400ml"
             }
         ],
-        "instructions": "Schil en snijd zoete aardappelen, ui en knoflook. Kook met kokosmelk. Pureer tot een romige soep.",
+        "instructions": "Peel and chop sweet potatoes, onion, and garlic. Cook with coconut milk. Puree into a creamy soup.",
         "cookingTime": 40,
-        "difficulty": "Gemakkelijk",
+        "difficulty": "Easy",
         "servings": 4
     },
     {
         "id": 38,
-        "title": "Griekse Gyros Wrap",
-        "category": "Gevogelte",
+        "title": "Greek Gyros Wrap",
+        "category": "Poultry",
         "ingredients": [
             {
-                "name": "kipgyros",
+                "name": "chicken gyros",
                 "amount": "300g"
             },
             {
-                "name": "volkoren wraps",
+                "name": "whole wheat wraps",
                 "amount": "4"
             },
             {
@@ -1313,103 +1313,103 @@
                 "amount": "150g"
             },
             {
-                "name": "tomaat",
+                "name": "tomato",
                 "amount": "1"
             }
         ],
-        "instructions": "Bak kipgyros en vul wraps met gyros, tzatziki en plakjes tomaat.",
+        "instructions": "Pan-fry chicken gyros and fill wraps with gyros, tzatziki, and tomato slices.",
         "cookingTime": 25,
-        "difficulty": "Gemakkelijk",
+        "difficulty": "Easy",
         "servings": 3
     },
     {
         "id": 39,
         "title": "Ratatouille",
-        "category": "Groenten",
+        "category": "Vegetables",
         "ingredients": [
             {
-                "name": "aubergine",
+                "name": "eggplant",
                 "amount": "1"
             },
             {
-                "name": "courgette",
+                "name": "zucchini",
                 "amount": "1"
             },
             {
-                "name": "paprika",
+                "name": "bell pepper",
                 "amount": "1"
             },
             {
-                "name": "tomatensaus",
+                "name": "tomato sauce",
                 "amount": "300ml"
             }
         ],
-        "instructions": "Snijd groenten in plakjes en schik in een ovenschaal. Voeg tomatensaus toe en bak in de oven.",
+        "instructions": "Slice vegetables and arrange in a baking dish. Add tomato sauce and bake in the oven.",
         "cookingTime": 30,
-        "difficulty": "Gemakkelijk",
+        "difficulty": "Easy",
         "servings": 2
     },
     {
         "id": 40,
-        "title": "Chocolade Mousse",
+        "title": "Chocolate Mousse",
         "category": "Dessert",
         "ingredients": [
             {
-                "name": "pure chocolade",
+                "name": "dark chocolate",
                 "amount": "200g"
             },
             {
-                "name": "slagroom",
+                "name": "whipping cream",
                 "amount": "300ml"
             },
             {
-                "name": "suiker",
+                "name": "sugar",
                 "amount": "50g"
             },
             {
-                "name": "vanille-extract",
-                "amount": "1 theelepel"
+                "name": "vanilla extract",
+                "amount": "1 teaspoon"
             }
         ],
-        "instructions": "Smelt chocolade en laat afkoelen. Klop slagroom met suiker en vanille-extract. Meng met gesmolten chocolade. Laat opstijven in de koelkast.",
+        "instructions": "Melt chocolate and let it cool. Whip cream with sugar and vanilla extract. Mix with melted chocolate. Allow to set in the refrigerator.",
         "cookingTime": 120,
-        "difficulty": "Gemakkelijk",
+        "difficulty": "Easy",
         "servings": 4
     },
     {
         "id": 41,
-        "title": "Quinoa Salade met Groenten",
-        "category": "Salade",
+        "title": "Quinoa Salad with Vegetables",
+        "category": "Salad",
         "ingredients": [
             {
                 "name": "quinoa",
-                "amount": "1 kopje"
+                "amount": "1 cup"
             },
             {
-                "name": "paprika",
+                "name": "bell pepper",
                 "amount": "2"
             },
             {
-                "name": "courgette",
+                "name": "zucchini",
                 "amount": "1"
             },
             {
-                "name": "cherrytomaatjes",
+                "name": "cherry tomatoes",
                 "amount": "250g"
             }
         ],
-        "instructions": "Kook quinoa en rooster groenten in de oven. Meng samen tot een smakelijke salade.",
+        "instructions": "Cook quinoa and roast vegetables in the oven. Mix together for a tasty salad.",
         "cookingTime": 30,
-        "difficulty": "Gemakkelijk",
+        "difficulty": "Easy",
         "servings": 3
     },
     {
         "id": 42,
-        "title": "Mango Kip Curry",
+        "title": "Mango Chicken Curry",
         "category": "Curry",
         "ingredients": [
             {
-                "name": "kipfilet",
+                "name": "chicken breast",
                 "amount": "400g"
             },
             {
@@ -1417,252 +1417,233 @@
                 "amount": "1"
             },
             {
-                "name": "currypasta",
-                "amount": "2 eetlepels"
+                "name": "curry paste",
+                "amount": "2 tablespoons"
             },
             {
-                "name": "kokosmelk",
+                "name": "coconut milk",
                 "amount": "400ml"
             }
         ],
-        "instructions": "Bak kipfilet met currypasta. Voeg gesneden mango en kokosmelk toe. Laat sudderen tot de kip gaar is.",
+        "instructions": "Pan-fry chicken breast with curry paste. Add diced mango and coconut milk. Simmer until chicken is cooked through.",
         "cookingTime": 35,
-        "difficulty": "Gemiddeld",
+        "difficulty": "Medium",
         "servings": 4
     },
     {
         "id": 43,
-        "title": "Aardbeien Cheesecake",
+        "title": "Strawberry Cheesecake",
         "category": "Dessert",
         "ingredients": [
             {
-                "name": "roomkaas",
+                "name": "cream cheese",
                 "amount": "200g"
             },
             {
-                "name": "aardbeien",
+                "name": "strawberries",
                 "amount": "250g"
             },
             {
-                "name": "suiker",
+                "name": "sugar",
                 "amount": "100g"
             },
             {
-                "name": "koekkruimels",
+                "name": "cookie crumbs",
                 "amount": "150g"
             }
         ],
-        "instructions": "Mix roomkaas met suiker. Voeg aardbeien toe. Maak een bodem van koekkruimels en giet het mengsel erover. Laat opstijven in de koelkast.",
+        "instructions": "Mix cream cheese with sugar. Add strawberries. Create a base of cookie crumbs and pour the mixture over it. Allow to set in the refrigerator.",
         "cookingTime": 180,
-        "difficulty": "Gemakkelijk",
+        "difficulty": "Easy",
         "servings": 6
     },
     {
         "id": 44,
-        "title": "Gegrilde Zalmfilet",
-        "category": "Vis",
+        "title": "Grilled Salmon Fillet",
+        "category": "Fish",
         "ingredients": [
             {
-                "name": "zalmfilet",
-                "amount": "2 stuks"
+                "name": "salmon fillet",
+                "amount": "2 pieces"
             },
             {
-                "name": "citroen",
+                "name": "lemon",
                 "amount": "1"
             },
             {
-                "name": "verse dille",
-                "amount": "1 eetlepel"
+                "name": "fresh dill",
+                "amount": "1 tablespoon"
             },
             {
-                "name": "olijfolie",
-                "amount": "2 eetlepels"
+                "name": "olive oil",
+                "amount": "2 tablespoons"
             }
         ],
-        "instructions": "Marineer zalmfilets in olijfolie, citroensap en verse dille. Grill tot de zalm gaar is.",
+        "instructions": "Marinate salmon fillets in olive oil, lemon juice, and fresh dill. Grill until salmon is cooked through.",
         "cookingTime": 20,
-        "difficulty": "Gemakkelijk",
+        "difficulty": "Easy",
         "servings": 2
     },
     {
         "id": 45,
-        "title": "Vegetarische Couscoussalade",
-        "category": "Salade",
+        "title": "Vegetarian Couscous Salad",
+        "category": "Salad",
         "ingredients": [
             {
                 "name": "couscous",
-                "amount": "1 kopje"
+                "amount": "1 cup"
             },
             {
-                "name": "kikkererwten",
+                "name": "chickpeas",
                 "amount": "200g"
             },
             {
-                "name": "paprika",
+                "name": "bell pepper",
                 "amount": "1"
             },
             {
-                "name": "verse munt",
-                "amount": "1 bosje"
+                "name": "fresh mint",
+                "amount": "1 bunch"
             }
         ],
-        "instructions": "Bereid couscous volgens de verpakking en meng met kikkererwten, gesneden paprika en verse munt.",
+        "instructions": "Prepare couscous according to package instructions and mix with chickpeas, chopped bell pepper, and fresh mint.",
         "cookingTime": 15,
-        "difficulty": "Gemakkelijk",
+        "difficulty": "Easy",
         "servings": 3
     },
     {
         "id": 46,
-        "title": "Citroen Risotto",
+        "title": "Lemon Risotto",
         "category": "Risotto",
         "ingredients": [
             {
-                "name": "risottorijst",
+                "name": "risotto rice",
                 "amount": "300g"
             },
             {
-                "name": "citroen",
+                "name": "lemon",
                 "amount": "2"
             },
             {
-                "name": "verse tijm",
-                "amount": "1 eetlepel"
+                "name": "fresh thyme",
+                "amount": "1 tablespoon"
             },
             {
-                "name": "groentebouillon",
+                "name": "vegetable broth",
                 "amount": "1 liter"
             }
         ],
-        "instructions": "Bak risottorijst met citroenrasp en tijm. Voeg geleidelijk bouillon toe en roer tot de rijst gaar is.",
+        "instructions": "Sauté risotto rice with lemon zest and thyme. Gradually add vegetable broth and stir until the rice is cooked.",
         "cookingTime": 30,
-        "difficulty": "Gemiddeld",
+        "difficulty": "Medium",
         "servings": 4
     },
     {
         "id": 47,
-        "title": "Kokos Mango Smoothie",
-        "category": "Drank",
+        "title": "Coconut Mango Smoothie",
+        "category": "Drink",
         "ingredients": [
             {
                 "name": "mango",
                 "amount": "1"
             },
             {
-                "name": "kokosmelk",
+                "name": "coconut milk",
                 "amount": "200ml"
             },
             {
-                "name": "yoghurt",
+                "name": "yogurt",
                 "amount": "150ml"
             },
             {
-                "name": "honing",
-                "amount": "2 eetlepels"
+                "name": "honey",
+                "amount": "2 tablespoons"
             }
         ],
-        "instructions": "Mix mango, kokosmelk, yoghurt en honing tot een verfrissende smoothie.",
+        "instructions": "Blend mango, coconut milk, yogurt, and honey into a refreshing smoothie.",
         "cookingTime": 10,
-        "difficulty": "Gemakkelijk",
+        "difficulty": "Easy",
         "servings": 2
     },
     {
         "id": 48,
-        "title": "Gevulde Paprika's met Quinoa",
-        "category": "Vegetarisch",
+        "title": "Stuffed Peppers with Quinoa",
+        "category": "Vegetarian",
         "ingredients": [
             {
-                "name": "paprika's",
+                "name": "bell peppers",
                 "amount": "4"
             },
             {
                 "name": "quinoa",
-                "amount": "1 kopje"
+                "amount": "1 cup"
             },
             {
-                "name": "zwarte bonen",
+                "name": "black beans",
                 "amount": "200g"
             },
             {
-                "name": "tomatensaus",
+                "name": "tomato sauce",
                 "amount": "300ml"
             }
         ],
-        "instructions": "Kook quinoa en meng met zwarte bonen en tomatensaus. Vul paprika's en bak in de oven.",
+        "instructions": "Cook quinoa and mix with black beans and tomato sauce. Stuff peppers and bake in the oven.",
         "cookingTime": 40,
-        "difficulty": "Gemakkelijk",
+        "difficulty": "Easy",
         "servings": 4
     },
     {
         "id": 49,
-        "title": "Kip Caesar Salade",
-        "category": "Salade",
+        "title": "Chicken Caesar Salad",
+        "category": "Salad",
         "ingredients": [
             {
-                "name": "kippendijen",
+                "name": "chicken thighs",
                 "amount": "300g"
             },
             {
-                "name": "romeinse sla",
-                "amount": "1 krop"
+                "name": "romaine lettuce",
+                "amount": "1 head"
             },
             {
                 "name": "croutons",
                 "amount": "100g"
             },
             {
-                "name": "Caesardressing",
+                "name": "Caesar dressing",
                 "amount": "150ml"
             }
         ],
-        "instructions": "Bak kippendijen en snijd in reepjes. Meng met gescheurde sla, croutons en Caesardressing.",
+        "instructions": "Pan-fry chicken thighs and slice into strips. Toss with torn lettuce, croutons, and Caesar dressing.",
         "cookingTime": 25,
-        "difficulty": "Gemakkelijk",
+        "difficulty": "Easy",
         "servings": 2
     },
     {
         "id": 50,
-        "title": "Pompoen Notencake",
+        "title": "Pumpkin Nut Cake",
         "category": "Dessert",
         "ingredients": [
             {
-                "name": "pompoenpuree",
-                "amount": "1 kopje"
+                "name": "pumpkin puree",
+                "amount": "1 cup"
             },
             {
-                "name": "bloem",
+                "name": "flour",
                 "amount": "200g"
             },
             {
-                "name": "notenmix",
+                "name": "mixed nuts",
                 "amount": "100g"
             },
             {
-                "name": "kaneel",
-                "amount": "1 theelepel"
+                "name": "cinnamon",
+                "amount": "1 teaspoon"
             }
         ],
-        "instructions": "Mix pompoenpuree met bloem, notenmix en kaneel. Bak tot een smeuïge cake.",
+        "instructions": "Mix pumpkin puree with flour, mixed nuts, and cinnamon. Bake into a moist cake.",
         "cookingTime": 50,
-        "difficulty": "Gemakkelijk",
-        "servings": 8
-    },
-    {
-        "title": "meat",
-        "category": "meat",
-        "ingredients": [
-            {
-                "name": "meat",
-                "amount": "2"
-            },
-            {
-                "name": "vegit",
-                "amount": "2"
-            }
-        ],
-        "instructions": "cooking together ",
-        "cookingTime": "57",
         "difficulty": "Easy",
-        "servings": "3",
-        "id": "7b095300-8fde-4508-bb73-1fd6ed3b9dd1"
+        "servings": 8
     }
 ]

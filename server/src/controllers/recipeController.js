@@ -4,8 +4,8 @@ const { v4: generateRandomId } = require('uuid');
 
 // ---------------- REUSED FUNCTIONS ----------------------------------------------------------------------------------------------------------------------
 // Set status to 500 and show error message
-function showErrorMessage(response, error) {
-    return response.status(500).json({
+function showErrorMessage(res, error) {
+    return res.status(500).json({
         message: error.message
     })
 }
@@ -16,7 +16,7 @@ async function getRecipesFromFile(filePath) {
         const data = await fsp.readFile(filePath);
         return JSON.parse(data);
     } catch (error) {
-        return `Lezen en/of parsen van het bestand niet gelukt: ${error.message}`
+        return `there is error ${error.message}`
     }
 };
 
@@ -25,7 +25,7 @@ async function uploadRecipesToFile(filePath, recipes) {
     try {
         return await fsp.writeFile(filePath, JSON.stringify(recipes, null, 4));
     } catch (error) {
-        return `Het bestand updaten is niet gelukt: ${error.message}`
+        return `Error ${error.message}`
     }
 };
 
@@ -33,11 +33,11 @@ async function uploadRecipesToFile(filePath, recipes) {
 const recipesFilePath = path.join(__dirname, '..', 'data', 'recipes.json');
 
 // ---------------- GET RECIPES ---------------------------------------------------------------------------------------------------------------------------
-async function getRecipes(request, response) {
+async function getRecipes(req, res) {
     try {
         // Get the recipes from the file
         const recipes = await getRecipesFromFile(recipesFilePath);
-        const value = request.query.filter;
+        const value = req.query.filter;
         if (value) {
             const filteredRecipes = recipes.filter(recipe => {
                 return (
@@ -46,115 +46,115 @@ async function getRecipes(request, response) {
                 )
             });
             // Give back the filtered recipes
-            response.json(filteredRecipes);
+            res.json(filteredRecipes);
         } else {
             // No filter parameter? return all recipes
-            response.json(recipes);
+            res.json(recipes);
         }
     } catch (error) {
-        showErrorMessage(response, error);
+        showErrorMessage(res, error);
     }
 };
 
 // ---------------- GET A RECIPE --------------------------------------------------------------------------------------------------------------------------
-async function getRecipe(request, response) {
+async function getRecipe(req, res) {
     try {
-        // Get the recipe id from the request parameters
-        const {id} = request.params;
+        // Get the recipe id from the req parameters
+        const {id} = req.params;
         // Get the recipes from the file
         const recipes = await getRecipesFromFile(recipesFilePath);
         // Find recipe with given id (only if it exist)
         const recipe = recipes.find((recipe) => recipe.id == id);
         if (recipe === undefined) {
-            response.status(404)
-            response.send(`Geen recept gevonden met de id:${id}`)
+            res.status(404)
+            res.send(`No recipes with ID: ${id}`)
         }
         // Give back the recipe with the correct id
-        response.json(recipe);
+        res.json(recipe);
     } catch (error) {
-        showErrorMessage(response, error);
+        showErrorMessage(res, error);
     }
 };
 
 // ---------------- ADD RECIPE ----------------------------------------------------------------------------------------------------------------------------
-async function addRecipe(request, response) {
+async function addRecipe(req, res) {
     try {
         // Get the recipes from the file
         const recipes = await getRecipesFromFile(recipesFilePath);
         // Push the new recipe to the rest of the recipes (only if the body is not empty en there is no id)
-        if (Object.keys(request.body).length === 0) {
-            response.status(400)
-            response.send('Gelieve een recept mee te geven!')
-        } else if ("id" in request.body) {
-            response.status(403)
-            response.send('Je hebt geen toestemming om een id mee te geven!')
+        if (Object.keys(req.body).length === 0) {
+            res.status(400)
+            res.send('There is no recipes , add recipes please ')
+        } else if ("id" in req.body) {
+            res.status(403)
+            res.send('You do not have permission to provide an ID')
         }
         recipes.push({
-            ...request.body,
+            ...req.body,
             id: generateRandomId()
         })
 
         // Upload the edited file again
         await uploadRecipesToFile(recipesFilePath, recipes);
-        response.send(`Nieuwe recept met naam ${request.body.title} is toegevoegd.`);
+        res.send(`New recipe with name ${req.body.title} has been added.`);
     } catch (error) {
-        showErrorMessage(response, error);
+        showErrorMessage(res, error);
     }
 };
 
 // ---------------- EDIT RECIPE ---------------------------------------------------------------------------------------------------------------------------
-async function editRecipe(request, response) {
+async function editRecipe(req, res) {
     try {
-        // Get the recipe id from the request parameters
-        const {id} = request.params;
+        // Get the recipe id from the req parameters
+        const {id} = req.params;
         // Get the recipes from the file
         const recipes = await getRecipesFromFile(recipesFilePath);
         // Find recipe with given id (only if it exist)
         const recipeIndex = recipes.findIndex((recipe) => recipe.id == id);
         if (recipeIndex === -1) {
-            response.status(404)
-            response.send(`Geen recept gevonden met de id:${id}`)
+            res.status(404)
+            res.send(`No recipe found with id: ${id}`)
         }
         // Replace the old recipe with the new updated
         recipes[recipeIndex] = {
             ...recipes[recipeIndex],
-            ...request.body
+            ...req.body
         };
 
         // Upload the edited file again
         await uploadRecipesToFile(recipesFilePath, recipes);
-        response.send(`Recept updated met id: ${id}!`);
+        res.send(`Recipe updated with id: ${id}!`);
     } catch (error) {
-        showErrorMessage(response, error);
+        showErrorMessage(res, error);
     }
 };
 
 // ---------------- REMOVE RECIPE -------------------------------------------------------------------------------------------------------------------------
-async function removeRecipe(request, response) {
+async function removeRecipe(req, res) {
     try {
-        // Get the recipe id from the request parameters
-        const {id} = request.params;
+        // Get the recipe id from the req parameters
+        const {id} = req.params;
         // Get the recipes from the file
         const recipes = await getRecipesFromFile(recipesFilePath);
         // Find recipe with given id and filter it out
         const filteredRecipes = recipes.filter((recipe) => recipe.id != id);
         // If the array is still the same length then no recipe was deleted
         if (filteredRecipes.length === recipes.length) {
-            response.status(404)
-            response.send(`Geen recept gevonden met de id:${id} om te verwijderen`)
+            res.status(404)
+            res.send(`No recipe found with id:${id} to delete`)
         }
 
         // Upload the edited file again
         await uploadRecipesToFile(recipesFilePath, filteredRecipes);
-        response.send(`Recept met id:${id} is verwijdert.`);
+        res.send(`Recept met id:${id} is verwijdert.`);
     } catch (error) {
-        showErrorMessage(response, error);
+        showErrorMessage(res, error);
     }
 };
 
 // ================ EXCELEREN =============================================================================================================================
 // ---------------- GET CATEGORIES ------------------------------------------------------------------------------------------------------------------------
-async function getCategories(request, response) {
+async function getCategories(req, res) {
     try {
         // Get the recipes from the file
         const recipes = await getRecipesFromFile(recipesFilePath);
@@ -162,17 +162,17 @@ async function getCategories(request, response) {
         const categories = [...new Set(recipes.map(recipe => recipe.category))];
         // Give back the recipes categories (only if they exist)
         if (categories.length === 0) {
-            response.status(404)
-            response.send('Geen categorieën gevonden');
+            res.status(404)
+            res.send('No categories found');
         }
-        response.json(categories);
+        res.json(categories);
     } catch (error) {
-        showErrorMessage(response, error);
+        showErrorMessage(res, error);
     }
 };
 
 // ---------------- GET INGREDIENTS -----------------------------------------------------------------------------------------------------------------------
-async function getIngredients(request, response) {
+async function getIngredients(req, res) {
     try {
         // Get the recipes from the file
         const recipes = await getRecipesFromFile(recipesFilePath);
@@ -180,17 +180,17 @@ async function getIngredients(request, response) {
         const ingredients = [...new Set(recipes.flatMap(recipe => recipe.ingredients.map(ingredient => ingredient.name)))];
         // Give back the recipes ingredients (only if they exist)
         if (ingredients.length === 0) {
-            response.status(404)
-            response.send('Geen ingrediënten gevonden');
+            res.status(404)
+            res.send('No ingredients found');
         }
-        response.json(ingredients)
+        res.json(ingredients)
     } catch (error) {
-        showErrorMessage(response, error);
+        showErrorMessage(res, error);
     }
 };
 
 // ---------------- GET DIFFICULTY LEVELS -----------------------------------------------------------------------------------------------------------------
-async function getDifficultyLevels(request, response) {
+async function getDifficultyLevels(req, res) {
     try {
         // Get the recipes from the file
         const recipes = await getRecipesFromFile(recipesFilePath);
@@ -198,12 +198,12 @@ async function getDifficultyLevels(request, response) {
         const difficultyLevels = [...new Set(recipes.map(recipe => recipe.difficulty))];
         // Give back the recipes difficultyLevels
         if (difficultyLevels.length === 0) {
-            response.status(404)
-            response.send('Geen moeilijkheidsgraden gevonden');
+            res.status(404)
+            res.send('No difficulty Levels found');
         }
-        response.json(difficultyLevels);
+        res.json(difficultyLevels);
     } catch (error) {
-        showErrorMessage(response, error);
+        showErrorMessage(res, error);
     }
 };
 
